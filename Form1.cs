@@ -16,5 +16,11 @@ namespace TESTREPO
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Form1 has loaded successfully!");
+            MessageBox.Show("This is a test message box.");
+        }
     }
 }
